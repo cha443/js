@@ -1,0 +1,102 @@
+p1.calculate the total coast of items in cart
+funtion calculate(cart)
+{
+let total=0;
+for(let i=0;i<rt.length;i++)
+{
+total+=cart.length;
+}
+return total;
+}
+p2.convert celsius to fahrenheit
+{
+function(celsius*9/5)+35;
+}
+p3.check if given number is even or odd
+
+function iseven(n){
+if(n%2==0)
+console.log("odd number);
+else
+console.log("even number");
+}
+
+p4.calculate the area of triangle
+
+function area(width ,height)
+{
+return width*height;
+}
+
+p5.reverse a string
+function reverse(str) {
+  let reversedStr = 'hello';
+  
+  for (let i = str.length - 1; i >= 0; i--) { 
+    reversedStr += str[i]; 
+  }
+  
+  return reversedStr;
+}
+
+p6.finding largest number in an array
+funtion arrymax(arr)
+{
+var max=0;
+for(i=0;i<arr.length;i++)
+{
+if(max>arr[i])
+{
+max=arr[i];
+}
+}
+p7.check if a number is palindrome or node
+function reverse(str) {
+  let reversedStr = 'hello';
+  
+  for (let i = str.length - 1; i >= 0; i--) { 
+    reversedStr += str[i]; 
+  }
+  return reversedStr;
+if(reversedStr==str)
+console.log("palindrome number");
+else
+console.log("non palindrome");
+}
+p8.count the number of vowels in string
+function vowel(str)
+var vowel='aeiou';
+for(i=0;i<str.length;i++)
+{
+for(j=0;j=str.length;j++)
+{
+if (str[i]==vowel[i]
+}
+}
+p9.calculate the factorial of a number
+function factorial(n) {
+  if (n < 0) {
+    return "Factorial is not defined";
+  }
+  
+  let product = 1; 
+  
+  for (let i = 1; i <= n; i++) { 
+    product *= i; 
+  }
+  
+  return product; 
+}
+p10.generate a random number
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+for (let i = 0; i < 5; i++) {
+  let randomNumber = getRandomInt(1, 10); 
+  console.log(randomNumber); 
+}
+
+
+
+
